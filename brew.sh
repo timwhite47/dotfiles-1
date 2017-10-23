@@ -19,6 +19,10 @@ brew cask install omnifocus
 brew cask install dropbox
 brew cask install tunnelbear
 brew cask install spotify
+brew cask install slack
+brew cask install steam
+brew cask install airmail-beta
+brew cask install anaconda
 
 
 # Install GNU core utilities (those that come with macOS are outdated).
