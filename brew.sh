@@ -8,6 +8,19 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
+# Install Hub
+brew install hub
+
+# Add Casks
+brew tap caskroom/cask
+brew cask install google-chrome
+brew cask install atom
+brew cask install omnifocus
+brew cask install dropbox
+brew cask install tunnelbear
+brew cask install spotify
+
+
 # Install GNU core utilities (those that come with macOS are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew install coreutils
