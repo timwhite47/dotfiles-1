@@ -24,6 +24,7 @@ brew cask install steam
 brew cask install airmail-beta
 brew cask install anaconda
 brew cask install quip
+brew cask install lastpass
 
 # Install GNU core utilities (those that come with macOS are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
