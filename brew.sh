@@ -8,6 +8,9 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
+# Postgres!
+brew install postgresql
+
 # Install Hub
 brew install hub
 
@@ -25,6 +28,7 @@ brew cask install airmail-beta
 brew cask install anaconda
 brew cask install quip
 brew cask install lastpass
+brew cask install keybase
 
 # Install GNU core utilities (those that come with macOS are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
